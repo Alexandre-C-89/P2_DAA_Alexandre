@@ -35,7 +35,7 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:2.1.4"
     implementation "com.google.android.material:material:1.7.0"
     implementation "com.github.bumptech.glide:glide:4.14.2"
-    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
     // UNIT TEST
@@ -43,7 +43,7 @@ dependencies {
     testImplementation 'org.hamcrest:java-hamcrest:2.0.0.0'
 
     // INSTRUMENTED TEST
-    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
-    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.5.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.5.1'
     androidTestUtil 'androidx.test:orchestrator:1.4.2'
 }
