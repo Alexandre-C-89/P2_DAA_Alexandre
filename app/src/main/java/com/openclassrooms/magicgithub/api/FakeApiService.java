@@ -33,7 +33,6 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public void deleteUser(User user) {
-        String userId = user.getId();
-        users.remove(userId);
+        users.remove(user);
     }
 }
