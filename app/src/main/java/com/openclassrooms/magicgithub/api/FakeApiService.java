@@ -25,7 +25,7 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public void generateRandomUser() {
-        User.random();
+        users.add(User.random());
     }
 
     /**
