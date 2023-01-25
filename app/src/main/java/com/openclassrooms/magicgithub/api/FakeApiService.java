@@ -33,13 +33,7 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public void deleteUser(User user) {
-        // Récupérer un des champs
-        // pour pouvoir supprimer l'utilisateur
-        // ex.: l'id
         String userId = user.getId();
-        // Créer la méthode pour supprimer l'utilisateur
-        // une fois que l'ont a récupérer l'id de
-        // l'utilisateur ou un autre champs peu importe
-         public static void deleteUser(userId);
+        users.remove(userId);
     }
 }
